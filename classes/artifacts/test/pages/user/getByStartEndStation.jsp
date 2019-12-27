@@ -27,10 +27,8 @@
 
 	
 	<br/><br/>
-	<form action="<%=basePath%>GetByStartEndStationServlet" method="post">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<form action="<%=basePath%>GetByStartEndStationServlet" method="post" style="text-align: center">
+
 		起始站:&nbsp;&nbsp;
 		<select name="startStation">
 			<c:forEach items="${startStationList}" var="train">

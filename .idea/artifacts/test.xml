@@ -49,6 +49,7 @@
           <element id="library" level="module" name="poi-4.0.1.jar" module-name="ticketing1" />
           <element id="library" level="module" name="poi-ooxml-4.0.1.jar" module-name="ticketing1" />
           <element id="library" level="module" name="servlet-api.jar" module-name="ticketing1" />
+          <element id="library" level="project" name="lib" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="ticketing1/web/Web" />

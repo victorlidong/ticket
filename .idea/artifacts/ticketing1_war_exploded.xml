@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ticketing1:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="ticketing1:war exploded">
     <output-path>$PROJECT_DIR$/classes/artifacts/ticketing1_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -50,6 +50,35 @@
           <element id="file-copy" path="E:/apache-tomcat-8.5.50/lib/catalina-storeconfig.jar" />
           <element id="library" level="project" name="lib" />
           <element id="library" level="module" name="servlet-api.jar" module-name="ticketing1" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/annotations-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/catalina-ant.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/catalina-ha.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/catalina-storeconfig.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/catalina.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/ecj-4.6.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/el-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/jasper-el.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/jasper.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/jaspic-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-de.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-ko.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-ru.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-i18n-zh-CN.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-jni.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-util-scan.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-util.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/tomcat-websocket.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Downloads/apache-tomcat-8.5.50-windows-x64/apache-tomcat-8.5.50/lib/websocket-api.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="ticketing1/web/Web" />

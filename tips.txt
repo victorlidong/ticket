@@ -1,0 +1,8 @@
+启动mysql数据库命令
+
+数据库密码qiruoyan
+mysql -uroot -p
+
+show databases;//查看都有哪些数据库
+
+use ticket;//进入ticket数据库
