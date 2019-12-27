@@ -1,0 +1,20 @@
+启动mysql数据库命令
+
+数据库密码qiruoyan
+mysql -uroot -p
+
+show databases;//查看都有哪些数据库
+
+use ticket;//进入ticket数据库
+
+
+
+
+修改火车时间，增加10天
+update train set starttime=DATE_ADD(starttime,INTERVAL 10 DAY);
+减少10天
+update train set starttime=DATE_SUB(starttime,INTERVAL 1 YEAR);
+
+ERROR 1366：
+status
+set names gbk;

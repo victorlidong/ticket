@@ -95,7 +95,7 @@ public class TrainDaoImpl implements TrainDao {
 	}
 
 	@Override
-	public List<Train> getByStartEndStation(String startStation, String endStation, String startTime)
+ 	public List<Train> getByStartEndStation(String startStation, String endStation, String startTime)
 			throws SQLException {
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();

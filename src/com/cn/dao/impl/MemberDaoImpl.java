@@ -30,7 +30,7 @@ public class MemberDaoImpl implements MemberDao {
 		int status = 0;
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();
-		String sql = "insert into member(username,password,registertime,ifuse,logintimes) values(?,?,?,?,?)";
+		String sql = "insert into `member`(username,password,registertime,ifuse,logintimes) values(?,?,?,?,?)";
 		status = queryRunner.update(conn, sql, member.getUserName(), member.getPassword(), member.getRegisterTime(),
 				member.getIfUse(), member.getLogintimes());
 		DbUtils.close(conn);
@@ -42,7 +42,7 @@ public class MemberDaoImpl implements MemberDao {
 		int status = 0;
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();
-		String sql = "delete from member where memberid=?";
+		String sql = "delete from `member` where memberid=?";
 		status = queryRunner.update(conn, sql, memberId);
 		DbUtils.close(conn);
 		return status;
@@ -67,7 +67,7 @@ public class MemberDaoImpl implements MemberDao {
 		int status = 0;
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();
-		String sql = "update member set username=?,password=?,ifuse=?,logintimes=? where memberid=?";
+		String sql = "update `member` set username=?,password=?,ifuse=?,logintimes=? where memberid=?";
 		status = queryRunner.update(conn, sql, member.getUserName(), member.getPassword(), member.getIfUse(), member.getLogintimes(), member.getMemberId());
 		DbUtils.close(conn);
 		return status;
@@ -78,7 +78,7 @@ public class MemberDaoImpl implements MemberDao {
 		List<Member> list = new ArrayList<Member>();
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();
-		String sql = "select * from member";
+		String sql = "select * from `member`";
 		list = queryRunner.query(conn, sql, new BeanListHandler<Member>(Member.class));
 		DbUtils.close(conn);
 		return list;
@@ -89,7 +89,7 @@ public class MemberDaoImpl implements MemberDao {
 		Member member = new Member();
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();
-		String sql = "select * from member where memberid=?";
+		String sql = "select * from `member` where memberid=?";
 		member = queryRunner.query(conn, sql, new BeanHandler<Member>(Member.class), memberId);
 		DbUtils.close(conn);
 		return member;
@@ -100,7 +100,7 @@ public class MemberDaoImpl implements MemberDao {
 		Member member = new Member();
 		conn = JDBCUtil.getConnection();
 		queryRunner = new QueryRunner();
-		String sql = "select * from member where username=?";
+		String sql = "select * from `member` where username=?";
 		member = queryRunner.query(conn, sql, new BeanHandler<Member>(Member.class), userName);
 		DbUtils.close(conn);
 		return member;
