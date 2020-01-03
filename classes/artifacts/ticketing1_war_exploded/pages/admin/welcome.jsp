@@ -11,10 +11,6 @@
 <title>WELCOME</title>
 </head>
 <body>
-<<<<<<< HEAD
-    <div text-align="center">欢迎进入</div>
-=======
-	<img width="1695px;" height="835px;" alt="" src="<%=basePath%>images/welcome.jpg">
->>>>>>> origin/master
+    <div text-align="center">欢迎进入会员中心</div>
 </body>
 </html>
