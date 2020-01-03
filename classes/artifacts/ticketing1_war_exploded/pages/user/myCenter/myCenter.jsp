@@ -27,13 +27,21 @@
 <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
+<<<<<<< HEAD
 <title>火车站售票后台管理系统 </title>
+=======
+<title>火车站售票后台管理系统  v1.0</title>
+>>>>>>> origin/master
 </head>
 <body>
 <header class="navbar-wrapper">
 	<div class="navbar navbar-fixed-top">
 		<div class="container-fluid cl"> <a class="logo navbar-logo f-l mr-10 hidden-xs" href="<%=basePath%>pages/user/myCenter/myCenter.jsp">会员中心 </a> 
+<<<<<<< HEAD
 
+=======
+			<span class="logo navbar-slogan f-l mr-10 hidden-xs">v1.0</span> 
+>>>>>>> origin/master
 			<a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
 			
 		<nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
@@ -41,13 +49,22 @@
 				<li class="dropDown dropDown_hover">
 					<a href="#" class="dropDown_A">${sessionScope.member.userName} <i class="Hui-iconfont">&#xe6d5;</i></a>
 					<ul class="dropDown-menu menu radius box-shadow">
+<<<<<<< HEAD
 						<li><a href=<%=basePath%>MemberLoginOutServlet>退出</a></li>
+=======
+						<li><a href="<%=basePath%>pages/user/home.jsp">退出</a></li>
+>>>>>>> origin/master
 				</ul>
 			</li>
 				<li id="Hui-skin" class="dropDown right dropDown_hover"> <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
 					<ul class="dropDown-menu menu radius box-shadow">
+<<<<<<< HEAD
 						<li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
 						<li><a href="javascript:;" data-val="default" title="默认（黑色）">黑色</a></li>
+=======
+						<li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a></li>
+						<li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+>>>>>>> origin/master
 						<li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
 						<li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
 						<li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
@@ -95,7 +112,11 @@
 		<div class="Hui-tabNav-wp">
 			<ul id="min_title_list" class="acrossTab cl">
 				<li class="active">
+<<<<<<< HEAD
 					<span title="我的桌面" data-href="<%=basePath%>MyPrepServlet" href="javascript:void(0)" >我的桌面</span>
+=======
+					<span title="我的桌面" data-href="<%=basePath%>/pages/admin/welcome.jsp">我的桌面</span>
+>>>>>>> origin/master
 					<em></em></li>
 		</ul>
 	</div>
@@ -104,7 +125,11 @@
 	<div id="iframe_box" class="Hui-article">
 		<div class="show_iframe">
 			<div style="display:none" class="loading"></div>
+<<<<<<< HEAD
 			<iframe scrolling="yes" frameborder="0" src="<%=basePath%>MyPrepServlet"></iframe>
+=======
+			<iframe scrolling="yes" frameborder="0" src="<%=basePath%>/pages/admin/welcome.jsp"></iframe>
+>>>>>>> origin/master
 	</div>
 </div>
 </section>

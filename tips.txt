@@ -6,6 +6,7 @@ mysql -uroot -p
 show databases;//查看都有哪些数据库
 
 use ticket;//进入ticket数据库
+<<<<<<< HEAD
 
 
 
@@ -18,3 +19,5 @@ update train set starttime=DATE_SUB(starttime,INTERVAL 1 YEAR);
 ERROR 1366：
 status
 set names gbk;
+=======
+>>>>>>> origin/master
