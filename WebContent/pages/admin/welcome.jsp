@@ -11,6 +11,6 @@
 <title>WELCOME</title>
 </head>
 <body>
-    <div text-align="center">欢迎进入</div>
+    <div text-align="center">欢迎进入会员中心</div>
 </body>
 </html>

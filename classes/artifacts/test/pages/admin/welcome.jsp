@@ -11,6 +11,6 @@
 <title>WELCOME</title>
 </head>
 <body>
-	<img width="1695px;" height="835px;" alt="" src="<%=basePath%>images/welcome.jpg">
+    <div text-align="center">欢迎进入</div>
 </body>
 </html>
